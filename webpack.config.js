@@ -94,6 +94,8 @@ module.exports = {
         }),
         new CopyWebpackPlugin([
             { from: 'src/html5up/css/noscript.css', to: 'noscript.css' },
+            { from: 'src/favicon.ico', to: 'favicon.ico'},
+            { from: 'src/humans.txt', to: 'humans.txt'},
         ])
     ],
     resolve: {
